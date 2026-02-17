@@ -7,4 +7,4 @@ UPDATE_CHANNEL_URL = 'https://t.me/gadgetpremiumzone'
 
 COMMAND_PREFIXES = ['/', '!', '.', ',', '$', '#']
 
-API_BASE_URL = 'http://xxx:8000'
+API_BASE_URL = 'http://0.0.0.0:8000'
