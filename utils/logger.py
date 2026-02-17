@@ -1,0 +1,23 @@
+#Copyright @ISmartCoder
+#Updates Channel @abirxdhackz
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+
+for logger_name in (
+    "telethon",
+    "telethon.client",
+    "telethon.network",
+    "telethon.extensions",
+    "telethon.sessions",
+):
+    logging.getLogger(logger_name).setLevel(logging.ERROR)
+
+LOGGER = logging.getLogger(__name__)
+
+LOGGER.info("Creating Logger For Logging...")
+LOGGER.info("Logger Successfully Created & Initialized")

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+uvloop
+asyncio
+telethon
+cryptg
+python-multipart
+psutil
+jinja2
+itsdangerous
+werkzeug
